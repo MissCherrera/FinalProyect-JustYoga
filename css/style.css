@@ -66,7 +66,7 @@ body {
   font-family: 'Josefin Sans';
   font-weight: 300;
   text-align: justify;
-  margin: .5em 2em 2em 2em;
+  margin: .5em 2em 1.5em 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,6 +242,8 @@ footer .footer-piedepagina .icon:hover {
 }
 
 .about-content_parrafo {
+  font-family: 'Josefin Sans';
+  font-weight: 300;
   text-align: center;
   margin: 1em;
 }
@@ -260,6 +262,8 @@ footer .footer-piedepagina .icon:hover {
 }
 
 .about-content_bottom__text {
+  font-family: 'Josefin Sans';
+  font-weight: 300;
   text-align: center;
   padding: 1em;
   margin: 1em 2.25em;
@@ -278,6 +282,8 @@ footer .footer-piedepagina .icon:hover {
 }
 
 .bottom-content_schedule {
+  font-family: 'Josefin Sans';
+  font-weight: 300;
   padding: .5em;
   margin: 1em;
   text-align: center;
@@ -500,8 +506,17 @@ footer .footer-piedepagina .icon:hover {
 }
 
 @media only screen and (min-width: 1024px) {
+  .section-one .principal-title {
+    font-size: 2.5em;
+  }
+  .section-two .second-title {
+    font-size: 2em;
+  }
   .principal-content {
     margin: .5em 3em 1.5em 3em;
+  }
+  .title-schedule {
+    margin-top: .5em;
   }
 }
 
@@ -529,6 +544,22 @@ footer .footer-piedepagina .icon:hover {
   }
   .principal-content {
     margin: .5em 8em 1.5em 8em;
+  }
+  .bottom-content_schedule {
+    margin: 1em 3em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .principal-content {
+    font-size: 1.25em;
+  }
+  .about-content_bottom__text {
+    font-size: 1.25em;
+  }
+  .section-two .second-content {
+    font-size: 1.05em;
+    margin: .5em 5.5em 1em 5.5em;
   }
 }
 /*# sourceMappingURL=style.css.map */
